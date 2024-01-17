@@ -1,0 +1,42 @@
+.incomeExpenseContainer {
+    margin: 0 auto;
+    margin-top: 16px;
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .12),
+        0 1px 2px rgba(0, 0, 0, .24);
+    padding: 16px 0px;
+
+    >div:nth-child(1) {
+        flex: 1;
+        border-right: 1px solid rgb(222 222 222);
+
+        >p {
+            text-align: center;
+            margin: 0;
+            font-weight: bold;
+        }
+
+        >p:nth-child(2) {
+            color: #b6960a;
+            margin: 8px;
+            font-size: 1.5rem;
+        }
+    }
+
+    >div:nth-child(2) {
+        flex: 1;
+
+        >p {
+            text-align: center;
+            margin: 0;
+            font-weight: bold;
+        }
+
+        >p:nth-child(2) {
+            color: #2da3ad;
+            margin: 8px;
+            font-size: 1.5rem;
+        }
+    }
+}
